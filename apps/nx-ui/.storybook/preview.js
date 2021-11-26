@@ -1,0 +1,1 @@
+console.log('preview js at app should work');
