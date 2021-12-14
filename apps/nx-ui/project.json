@@ -15,7 +15,10 @@
         "tsConfig": "apps/nx-ui/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": ["apps/nx-ui/src/favicon.ico", "apps/nx-ui/src/assets"],
-        "styles": ["apps/nx-ui/src/styles.scss"],
+        "styles": [
+          "apps/nx-ui/src/styles.scss",
+          "apps/nx-ui/.storybook/preview.scss"
+        ],
         "scripts": []
       },
       "configurations": {
